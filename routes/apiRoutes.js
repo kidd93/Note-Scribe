@@ -1,7 +1,6 @@
 const { writeFile } = require('fs');
 let store = require('../db/db.json');
 const { v1: uuidv1 } = require('uuid');
-const { notStrictEqual } = require('assert');
 const router = require('express').Router();
 
 router.get('/notes', (req, res) => {
