@@ -11,4 +11,4 @@ Note-Scribe is designed to write and save notes.
 * Npm Package UUID
 
 ## Screenshot
-![alt text](/Images/Screenshot1.png)
+![alt text](public/Images/Screenshot1.png)
