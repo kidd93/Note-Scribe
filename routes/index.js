@@ -1,4 +1,4 @@
-//
+// Pushes data from routes to the server.js file
 
 const router = require('express').Router();
 

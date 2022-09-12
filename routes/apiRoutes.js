@@ -7,6 +7,7 @@ router.get('/notes', (req, res) => {
     res.json(store);
 });
 
+// creates an Id variable in the body
 router.post('/notes', ({body},res)=> {
     body.id = uuidv1();
     store.push(body);
@@ -19,6 +20,7 @@ router.post('/notes', ({body},res)=> {
 
 })
 
+// delete function isn't a factor yet
 router.delete('/notes/:id', ({body}, res) => {
     getStore()
     .removeId({id})
