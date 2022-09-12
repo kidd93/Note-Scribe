@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,8 @@
     "url": "https://github.com/kidd93/Note-Scribe/issues"
   },
   "homepage": "https://github.com/kidd93/Note-Scribe#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
   "description": ""
 }
